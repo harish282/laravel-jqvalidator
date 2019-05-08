@@ -1,0 +1,35 @@
+{
+    "name": "sohamgreens/jqvalidator",
+    "description": "Client Side Validator",
+    "version": "0.0.1",
+    "keywords": ["laravel", "jquery validation", "validation"],
+    "require": {
+        "php": ">=7.0.0",
+        "laravelcollective/html": ">=5.5"
+    },
+     "require-dev": {
+        "laravelcollective/html": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sohamgreens\\Jqvalidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sohamgreens\\Jqvalidator\\Test\\": "tests"
+        }
+    },
+    "suggest": {
+        "laravelcollective/html": "Required to use the Laravel Collective ( > 5.5 )."
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sohamgreens\\Jqvalidator\\HtmlServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
